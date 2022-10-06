@@ -1,0 +1,31 @@
+#upcomingMovies img{
+    display: block;
+    margin: auto;
+    max-width: 30%;
+}
+
+#resultsMovies img{
+    display: block;
+    margin: auto;
+    max-width: 60%;
+}
+
+#movieDetails img{
+    max-width: 80%
+}
+
+#castMovie img{
+    display: block;
+    margin: auto;
+    max-width: 50%
+}
+header{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+a{
+    text-decoration: none;
+}
