@@ -14,6 +14,8 @@ const baseURL = 'https://api.themoviedb.org/3';
 const key = '?api_key=7f65f07a5ffa52563f8a6b45d629f577';
 const imageURL = 'https://image.tmdb.org/t/p/w500/';
 
+/* It's listening for the DOM to load, and when it does, it calls the getGenres, carouselUpcoming, and
+getMovies functions. */
 document.addEventListener('DOMContentLoaded', () => {
     getGenres();
     carouselUpcoming();
